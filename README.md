@@ -1,9 +1,14 @@
 # matplotlibChinesefix
 解決python matplotlib 顯示中文問題
 
-don't you .ttc font file in windows. please use ttf in matplotlib.
+## 字體副檔名問題
+不知如何在windows中會無法.ttc的字體，所以建議還是使用ttf檔。
+目前測試在ubuntu 16.04上是可以使用.ttc的
 
-note need to remove: ~/.cache/matplotlib
+
+## 所有字體設定完一定要移除快取檔:
+Ubuntu: ~/.cache/matplotlib
+Windows: C:\Users\您的使用者名稱\
 
 ## 找到  matplotlib default 字體路徑
 ```python
@@ -22,7 +27,8 @@ matplotlib.matplotlib_fname()
 import matplotlib.pyplot as plt 
 plt.rcParams['font.sans-serif']
 ```
-## plt   use by setting
+
+## plt use by setting
 ```python
 import matplotlib.pyplot as plt 
 plt.rcParams['font.family'] = 'sans-serif'
