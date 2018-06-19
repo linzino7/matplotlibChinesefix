@@ -7,7 +7,7 @@
 
 
 ## 所有字體設定完一定要移除快取檔:
-Ubuntu: ~/.cache/matplotlib
+Ubuntu: ~/.cache/matplotlib <br>
 Windows: C:\Users\您的使用者名稱\
 
 ## 找到  matplotlib default 字體路徑
