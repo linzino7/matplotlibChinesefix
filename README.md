@@ -2,13 +2,13 @@
 解決python matplotlib 顯示中文問題
 
 ## 字體副檔名問題
-不知如何在windows中會無法.ttc的字體，所以建議還是使用ttf檔。
-目前測試在ubuntu 16.04上是可以使用.ttc的
+* 不知如何在windows中會無法.ttc的字體，所以建議還是使用ttf檔。
+* 目前測試在ubuntu 16.04上是可以使用.ttc的
 
 
 ## 所有字體設定完一定要移除快取檔:
-Ubuntu: ~/.cache/matplotlib <br>
-Windows: C:\Users\您的使用者名稱\
+* Ubuntu: ~/.cache/matplotlib
+* Windows: C:\Users\您的使用者名稱\
 
 ## 找到  matplotlib default 字體路徑
 ```python
