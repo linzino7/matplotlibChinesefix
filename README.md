@@ -5,19 +5,19 @@ don't you .ttc font file in windows. please use ttf in matplotlib.
 
 note need to remove: ~/.cache/matplotlib
 
-## find  matplotlib default font
+## 找到  matplotlib default 字體路徑
 ```python
 from matplotlib.font_manager import findfont, FontProperties  
 findfont(FontProperties(family=FontProperties().get_family())) 
 ```
 
-## find matplotlibrc path
+## 找到 matplotlibrc 設定檔路徑
 ```python
 import matplotlib 
 matplotlib.matplotlib_fname()
 ```
 
-## see default font name
+## 顯示目前可以使用字體
 ```python
 import matplotlib.pyplot as plt 
 plt.rcParams['font.sans-serif']
