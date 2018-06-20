@@ -66,3 +66,19 @@ cities_counter = [('上海', 285), ('杭州', 225), ('北京', 163), ('广州', 
 sns.set_color_codes("pastel") 
 sns.barplot(x=[k for k, _ in cities_counter[:10]], y=[v for _, v in cities_counter[:10]])
 ```
+
+## 表情符號！
+```python
+# plt   use by setting
+import matplotlib.pyplot as plt 
+plt.rcParams['font.family'] = 'sans-serif'
+plt.rcParams['font.sans-serif'] = ['Noto Sans CJK JP']  
+plt.rcParams['axes.unicode_minus'] = False 
+plt.plot((1,2,3),(4,3,1)) 
+plt.title('😅😍😅',fontname='symbola') 
+plt.ylabel("文章數量") 
+plt.xlabel("時間")  
+plt.show()
+```
+
+
