@@ -43,7 +43,7 @@ plt.rcParams['font.family'] = 'sans-serif'
 plt.rcParams['font.sans-serif'] = ['Noto Sans CJK JP']  
 plt.rcParams['axes.unicode_minus'] = False 
 plt.plot((1,2,3),(4,3,1)) 
-plt.title('聲量圖',fontname='symbola') 
+plt.title('😅😍😅',fontname='symbola') 
 plt.ylabel("文章數量") 
 plt.xlabel("時間")  
 plt.show()
