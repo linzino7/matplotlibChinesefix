@@ -69,6 +69,8 @@ cities_counter = [('上海', 285), ('杭州', 225), ('北京', 163), ('广州', 
 sns.set_color_codes("pastel") 
 sns.barplot(x=[k for k, _ in cities_counter[:10]], y=[v for _, v in cities_counter[:10]])
 ```
+![seaborn](https://cdn-images-1.medium.com/max/800/1*1w2KcRbTbdh_-WODt76ZSA.png)
+
 
 ## 表情符號！
 ```python
