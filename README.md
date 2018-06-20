@@ -1,7 +1,7 @@
 # matplotlibChinesefix
 解決python matplotlib 顯示中文問題
 
-＃ 原文詳細中文問題解決
+# 原文詳細中文問題解決
 [解決Python 3 Matplotlib與Seaborn視覺化套件中文顯示問題 Windows 與Ubuntu User](https://medium.com/@aitmr1234567890/%E8%A7%A3%E6%B1%BApython-3-matplotlib%E8%88%87seaborn%E8%A6%96%E8%A6%BA%E5%8C%96%E5%A5%97%E4%BB%B6%E4%B8%AD%E6%96%87%E9%A1%AF%E7%A4%BA%E5%95%8F%E9%A1%8C-f7b3773a889b)
 
 ## 字體副檔名問題
@@ -83,5 +83,6 @@ plt.ylabel("文章數量")
 plt.xlabel("時間")  
 plt.show()
 ```
+![表情符號！](https://cdn-images-1.medium.com/max/800/1*9LVgo0VOragBoXsoLk1c4Q.png)
 
 
